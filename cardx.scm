@@ -1,3 +1,6 @@
+;; This is not usable because of missing core Haskell dependencies
+;; used by this package.
+
 (define-module (cardx)
   #:use-module (guix licenses)
   #:use-module (guix packages)
@@ -17,7 +20,7 @@
             (file-name (git-file-name name version))
             (sha256
              (base32
-              "1ny3i9gnxz5xv10qfsisg62jm9akipd2y885g53ndrgmsbcr2b81"))))
+              "1k5x398zx6mq35rjlbjakyrvnbrghrz7v9n4l1qjp61qs9w9qxvq"))))
    (build-system haskell-build-system)
    (arguments `(#:tests? #f))
    (synopsis "An Uno like card game")
