@@ -7,6 +7,7 @@ My personal (and staging level) packages channel for Guix.
 ```scheme
 (cons (channel
        (name 'modotte-channel)
-       (url "https://github.com/modotte/guix-channel"))
+       (url "https://github.com/modotte/guix-channel")
+       (branch "main"))
       %default-channels)
 ```

@@ -7,7 +7,7 @@
 (define-public cardx
   (package
    (name "cardx")
-   (version "0.2.0.0")
+   (version "v0.2.0.0")
    (source (origin
             (method git-fetch)
             (uri (git-reference
